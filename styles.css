@@ -236,3 +236,52 @@ transform: translateY(-0px);
   letter-spacing: -1px;
 }
 
+.frame-6-1 > button:hover p{
+  font-weight: 600;
+}
+
+.frame-6-1 > button:hover svg{
+  transform: scale(1.2);
+}
+
+.frame-7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.frame-7-1{
+  width: 765px;
+  text-align: center;  
+}
+
+.frame-7-1 > h1{
+font-family: "Sora";
+font-weight: 300;
+line-height: normal;
+font-size: 57px;
+}
+
+.frame-8{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.frame-8-1{
+  width: 820px;
+  text-align: center;
+}
+
+.frame-8-1 > h2{
+  font-family: "Sora";
+  font-size: 42px;
+  font-weight: 300;
+  line-height: normal;
+}
