@@ -15,3 +15,17 @@ window.addEventListener("scroll", () => {
     menu.classList.remove("fixed");
   }
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.querySelectorAll("header a");
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", function(event) {
+      event.preventDefault();
+      const targetId = link.getAttribute("href");
+      const targetElement = document.querySelector(targetId);
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+});
