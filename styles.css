@@ -119,6 +119,7 @@ line-height: normal;
   display: flex;
   flex-direction: row;
   gap: 15px;
+  height: 270px;
 }
 
 .frame-3-1 > button{
@@ -199,6 +200,7 @@ transform: translateY(-0px);
   flex-direction: row;
   justify-content: center;
   gap: 5rem;
+  height: 270px;
 }
 
 .frame-6-1 > button{
@@ -320,5 +322,4 @@ font-size: 57px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
