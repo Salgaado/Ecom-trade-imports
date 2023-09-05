@@ -6,7 +6,7 @@ O site será para empresa Ecom Solutions a empresa a qual trabalho hoje, o copy 
 
 <h3>Modelo Web</h3>
 
-![new](https://github.com/Salgaado/Ecom-trading-imports/assets/88348530/17e63385-92ce-4c77-bed8-ee90a4f20bf6)
+<img src="https://i.postimg.cc/Cx9yKXfk/new.png">
 
 <h3>Modelo Mobile</h3>
 
