@@ -71,16 +71,18 @@
     margin-top: 0px;
     flex-direction: column;
     margin-top: 10px;
+    gap: 30px;
   }
 
   .frame-3 > h1 {
     font-family: "Sora";
     color: #000;
     font-family: "Sora";
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
   }
 
   .frame-3-1 {
@@ -130,11 +132,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   .frame-4-1 {
-    width: 90%;
+    width: 80%;
     text-align: center;
     border: 2px solid #e3e3e3a6;
     border-radius: 12px;
@@ -145,12 +147,18 @@
     font-family: "Sora";
     font-size: 15px;
   }
+
+
+  .frame-4 .frame-4-1 > h2:hover {
+    background-color: #fff;
+    border-radius: 12px;
+  }
   
   .frame-5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .frame-5-1 > h2 {
@@ -234,12 +242,15 @@
     width: 100%;
     height: 400px;
     margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
 
   .frame-7-2-1 > img {
     transform: scale(0.38);
-    margin-bottom: 50px;
+    margin-bottom: -100px;
   }
 
   .frame-8 {
@@ -295,7 +306,7 @@
   .frame-9-2-1{
     width: 100%;
     height: 400px;
-    margin-top: -300px;
+    margin-top: -250px;
   }
 
   .frame-9-2-1 > img{
