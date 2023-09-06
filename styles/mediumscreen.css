@@ -1,0 +1,223 @@
+@media screen and (min-width: 641px) and (max-width: 1007px){
+
+  .frame-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dd0000;
+    width: 100%;
+    height: 25px;
+    position: sticky;
+    z-index: 1000;
+  }
+
+  .frame-1 > span {
+    color: #fff;
+    font-family: "Sora";
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 15px;
+    
+  }
+
+  .frame-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient( 111.49deg, rgba(255, 255, 255, 0.31) 0.5544714163988829%, rgba(255, 255, 255, 0.14) 96.875%, rgba(255, 255, 255, 0.31) 100% );
+    backdrop-filter: blur(10px);
+    border-bottom: solid 2px #e3e3e3a6;
+  }
+
+  .frame-2 > img{
+    width: 6rem;
+  }
+
+  .frame-2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; 
+    margin: 0;
+  }
+
+  .frame-2-bttn {
+    background-color: #62AE00;
+    color: #fff;
+    font-family: "Sora";
+    padding: 3px 5px 3px 5px;
+    border: none;
+    border-radius: 15px;
+    width: 186px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 0;
+  }
+
+  .frame-2-bttn:hover{
+    border-radius: 15px;
+    border: 4px solid #caf08eb8;
+  }
+
+  .frame-2-mobilebttn{
+    display: none;
+  }
+
+  .frame-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 5rem;
+  }
+
+
+  .frame-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .frame-4-1 {
+    width: 600px;
+    text-align: center;
+    border: 2px solid #e3e3e3a6;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.363);
+  }
+
+  .frame-4 .frame-4-1 > h2 {
+    font-family: "Sora";
+    font-size: 20px;
+  }
+
+  .frame-6-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    height: 270px;
+  } 
+
+  .frame-6-1 > button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 0px 30px;
+    transition: 300ms;
+    transform: translateY(0);
+    cursor: pointer;
+  }
+
+  .frame-6-1 > button:hover {
+    transition: 300ms;
+    height: 170px;
+    transform: translateY(0px);
+    border: solid 5px #fff;
+    font-weight: 600;
+}
+
+  .frame-6-1 > button > p {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Sora";
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: -1px;
+  }
+
+
+  .frame-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .frame-7-1 > h1 {
+    font-family: "Sora";
+    font-weight: 300;
+    line-height: normal;
+    font-size: 37px;
+  }
+
+  .frame-7-2-1 > img{
+    transform: scale(0.7);
+  }
+
+
+  .frame-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .frame-8-2-1 > img{
+    transform: scale(0.6);
+  }
+
+
+  .frame-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .frame-9-2-1{
+    height: 500px;
+  }
+
+  .frame-9-2 {
+    margin-top: 0px;
+  }
+
+
+  .frame-9-2-1 > img {
+    transform: scale(0.7);
+  }
+
+
+  .frame-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+
+  .frame-11-1 > h2 {
+    font-family: "Sora";
+    font-size: 35px;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+  }
+
+
+
+  .frame-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+}
