@@ -1,5 +1,12 @@
 @media screen and (min-width: 641px) and (max-width: 1007px){
 
+  html{
+    background-color: rgba(255, 255, 255, 0.591);
+    background-image: url(https://i.postimg.cc/BbGM1krz/BG-ECOM-TRADE.png);
+    background-size: cover;
+  }
+
+
   .frame-1 {
     display: flex;
     justify-content: center;
