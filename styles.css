@@ -431,6 +431,10 @@ footer{
 
 /* Form rd-stations */
 
+#rd-column-lm6tp6sw{
+  display: none !important;
+}
+
 #rd-section-lm6tp6su {
   background-color: inherit !important;
   border-bottom-style: none;
