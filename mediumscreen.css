@@ -4,12 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #dd0000;
+    background: #00AEBC;
     width: 100%;
     height: 25px;
     position: sticky;
     z-index: 1000;
   }
+
 
   .frame-1 > span {
     color: #fff;
