@@ -5,7 +5,9 @@
 }
 
 html{
-  background-color: rgba(255, 255, 255, 0.591)
+  background-color: rgba(255, 255, 255, 0.591);
+  background-image: url(https://i.postimg.cc/BbGM1krz/BG-ECOM-TRADE.png);
+  background-size: cover;
 }
 
 
@@ -422,4 +424,102 @@ footer{
 .footer-frame > h5 {
   font-family: "Sora";
   font-weight: 500;
+}
+
+
+/* Form rd-stations */
+
+#rd-section-lm6tp6su {
+  background-color: inherit !important;
+  border-bottom-style: none;
+  border-color: #000000;
+  border-left-style: none;
+  border-radius: 0px;
+  border-right-style: none;
+  border-top-style: none;
+  border-width: 1px;
+}
+
+#rd-row-lm6tp6sv .bricks--column > div {
+  min-height: 50px;
+  display: none;
+}
+
+#rd-form-lm6tp6t1 .bricks-form__label {
+  color: #969696;
+  display: inline-block;
+  font-family: "Sora" !important;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+
+#rd-form-lm6tp6t1 .bricks-form__input:not(textarea) {
+  height: 60px !important;
+}
+
+
+#rd-column-lm6tp6t0 > div {
+  background-color: inherit !important;
+  justify-content: center;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+
+#rd-form-lm6tp6t1 .bricks-form__input {
+  color: #555555;
+  font-family: "Sora" !important;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-color: #C120A6 !important;
+  border-radius: 30px !important;
+  border-width: 1px;
+}
+
+#rd-form-lm6tp6t1 .bricks-form__input:focus-visible{
+  outline :none  !important;   /*remove o outline depois que clicado */
+}
+
+
+#rd-button-lm6tp6t4 {
+  align-self: center;
+  background-color: #C120A6 !important;
+  border-bottom-style: solid;
+  border-color: #C120A6 !important;
+  border-left-style: solid;
+  border-radius: 30px !important;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 0px 0px 0px #cccccc;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  height: 58px;
+  justify-content: center;
+  line-height: 1.42857;
+  margin-bottom: 0px;
+  margin-top: 18px;
+  max-width: 558px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+#rd-button-lm6tp6t4:hover{
+  background: #6A0E5B !important ;/*cor do botão quando passar mouse*/
 }
