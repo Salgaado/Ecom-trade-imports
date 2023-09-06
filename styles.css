@@ -530,7 +530,7 @@ footer{
   background: #6A0E5B !important ;/*cor do botão quando passar mouse*/
 }
 
-@media screen and (min-width: px) {
+@media screen and (min-width: 920px) {
   .frame-2-mobilebttn{
     display: none;
   }
