@@ -6,8 +6,12 @@ O site será para empresa Ecom Solutions a empresa a qual trabalho hoje, o copy 
 
 <h3>Modelo Web</h3>
 
-<img src="https://i.postimg.cc/Cx9yKXfk/new.png">
+<img src="https://i.postimg.cc/jj4M0cmY/Screenshot-2023-09-06-193139.png">
+
+<h3>Modelo Tablet</h3>
+
+<img src="https://i.postimg.cc/D086GTZ7/Screenshot-2023-09-06-193228.png">
 
 <h3>Modelo Mobile</h3>
 
-Incoming
+<img src="https://i.postimg.cc/FFBD47Wz/Screenshot-2023-09-06-193159.png">
