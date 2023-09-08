@@ -1,370 +1,364 @@
-@media screen and (max-width: 640px){
-
-  html{
-    background-color: rgba(254, 255, 255, 0.648);
-    background-image: url(https://i.postimg.cc/BbGM1krz/BG-ECOM-TRADE.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-  }
-
-
-
- 
-  .frame-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #00AEBC;
-    max-width: 100%;
-    height: 20px;
-    position: sticky;
-    z-index: 1000;
-  }
-
-  .frame-1 > span {
-    color: #fff;
-    font-family: "Sora";
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 9px;
-  }
-
-  .frame-2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 100%;
-    height: 4rem;
-    background: linear-gradient( 111.49deg, rgba(255, 255, 255, 0.31) 0.5544714163988829%, rgba(255, 255, 255, 0.14) 96.875%, rgba(255, 255, 255, 0.31) 100% );
-    backdrop-filter: blur(20px);
-    border-bottom: solid 2px #e3e3e3a6;
-  }
-
-  .frame-2 > img{
-    max-width: 5rem;
-    
-  }
-
-  .frame-2-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    margin-left: 0px;
-  }
-
-
-  .frame-2-1 > h2, a {
-    font-family: "Sora";
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 10px;
-    color: #000;
-    transition: ease-out 500ms;
-  }
-
-  .frame-2-mobilebttn{
-    background-color: #62AE00;
-    color: #fff;
-    padding: 3px 5px 3px 5px;
-    border: none;
-    border-radius: 10px;
-    max-width: 3rem;
-    margin-right: 0;
-  } 
-  
-  
-  .frame-2-mobilebttn:hover{
-    border-radius: 10px;
-    border: 2px solid #caf08eb8;
-  }
-
-  .frame-2-bttn {
-   display: none;
-  }
-
-
-  .frame-3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 0px;
-    flex-direction: column;
-    margin-top: 10px;
-    gap: 30px;
-  }
-
-  .frame-3 > h1 {
-    font-family: "Sora";
-    color: #000;
-    font-family: "Sora";
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-  }
-
-  .frame-3-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 9.3rem;
-    max-width: 90%;
-    padding-top: 20px;
-    gap: 20px;
-  }
-
-  .frame-3-1 > button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    height: 7.4rem;
-    background: linear-gradient(139deg, #E142C6 0%, #AB1892 100%);
-    color: #fff;
-    border: none;
-    border-radius: 12px;
-    transition: 300ms;
-    transform: translateY(0);
-    cursor: pointer;
-    padding: 0;
-  }
-
-
-  .frame-3-1 > button:hover {
-    transition: 300ms;
-    height: 8rem;
-    transform: translateY(0px);
-  }
-
-
-  .frame-3-1 > button > svg{
-    max-width: 2.5rem;
-  }
-
-  .frame-3-1 > button > p{
-    font-size: 10px;
-  }
-
-
-  .frame-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3.1rem;
-  }
-
-  .frame-4-1 {
-    max-width: 80%;
-    text-align: center;
-    border: 2px solid #e3e3e3a6;
-    border-radius: 12px;
-    background-color: rgba(255, 255, 255, 0.363);
-  }
-
-  .frame-4 .frame-4-1 > h2 {
-    font-family: "Sora";
-    font-size: 1rem;
-  }
-
-
-  .frame-4 .frame-4-1 > h2:hover {
-    background-color: #fff;
-    border-radius: 12px;
-  }
-  
-  .frame-5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3.1rem;
-  }
-
-  .frame-5-1 > h2 {
-    font-size: 2rem;
-    font-family: "Sora";
-    text-align: center;
-  }
-
-  .frame-6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+html {
+  background-color: rgba(254, 255, 255, 0.648);
+  background-image: url(https://i.postimg.cc/BbGM1krz/BG-ECOM-TRADE.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-  .frame-6-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    height: 10rem;
-    max-width: 90%;
-  }
-  
-  .frame-6-1 > button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    height: 6.2rem;
-    color: #fff;
-    border: none;
-    border-radius: 12px;
-    padding: 0px;
-    transition: 300ms;
-    transform: translateY(0);
-    cursor: pointer;
-  }
-
-  .frame-6-1 > button:hover{
-    transition: 300ms;
-    height: 6.2rem;
-    transform: translateY(-0px);
-    border: none;
-    font-weight: 300;
-  }
-
-  .frame-6-1 > button > svg{
-    max-width: 2rem;
-  }
-
-  .frame-6-1 > button > P{
-    font-size: 12px;
-    margin-bottom: 5px;
-    font-weight: 500;
-  }
-
-  .frame-7 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .frame-7-1 {
-    max-width: 90%;
-    text-align: center;
-  }
-
-  .frame-7-1 > h1 {
-    font-family: "Sora";
-    font-weight: 300;
-    line-height: normal;
-    font-size: 30px;
-  }
-
-  .frame-7-2{
-    max-width: 100%;
-  }
 
 
-  .frame-7-2-1{
-    max-width: 100%;
-    height: 25rem;
-    margin-top: -6.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
 
-  .frame-7-2-1 > img {
-    transform: scale(0.38);
-    margin-bottom: -6.25rem;
-  }
-
-  .frame-8 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .frame-8-1 {
-    max-width: 90%;
-    text-align: center;
+.frame-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00AEBC;
+  max-width: 100%;
+  height: 20px;
+  position: sticky;
+  z-index: 1000;
 }
 
-  .frame-8-1 > h2 {
-    font-family: "Sora";
-    font-size: 30px;
-    font-weight: 300;
-    line-height: normal;
-  }
-
-  .frame-8-2-1{
-    max-width: 100%;
-    height: 25rem;
-    margin-top: -9.375rem;
-  }
-
-  .frame-8-2-1 > img{
-   
-    transform: scale(0.27);
-  }
-  
-
-  .frame-9-1 {
-    max-width: 90%;
-    text-align: center;
-  }
-
-  .frame-9-1 > h2{
-    font-family: "Sora";
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: normal;
-    position: relative;
-    z-index: 10;
-  }
-  
-  .frame-9-2 {
-    margin-top: 5px;
-  }
-
-  .frame-9-2-1{
-    display: none;
-    max-width: 100%;
-    height: 25rem;
-    margin-top: -15.625rem;
-  }
-
-  .frame-9-2-1 > img{
-    transform: scale(0.31) 
-  }
-
-  .frame-10-1 > img{
-    transform: scale(0.44);
-    margin-top: -6.25rem;
-  }
-
-
-  .frame-11 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -12.5rem;
-  }
-
-  .frame-11-1 {
-    max-width: 90%;
-    text-align: center;
+.frame-1>span {
+  color: #fff;
+  font-family: "Sora";
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 9px;
 }
 
-  .frame-11-1 > h2 {
-    font-family: "Sora";
-    font-size: 30px;
-    font-weight: 300;
-    line-height: normal;
-    position: relative;
-  }
- 
+.frame-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height: 4rem;
+  background: linear-gradient(111.49deg, rgba(255, 255, 255, 0.31) 0.5544714163988829%, rgba(255, 255, 255, 0.14) 96.875%, rgba(255, 255, 255, 0.31) 100%);
+  backdrop-filter: blur(20px);
+  border-bottom: solid 2px #e3e3e3a6;
+}
 
+.frame-2>img {
+  max-width: 5rem;
+
+}
+
+.frame-2-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-left: 0px;
+}
+
+
+.frame-2-1>h2,
+a {
+  font-family: "Sora";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #000;
+  transition: ease-out 500ms;
+}
+
+.frame-2-mobilebttn {
+  background-color: #62AE00;
+  color: #fff;
+  padding: 3px 5px 3px 5px;
+  border: none;
+  border-radius: 10px;
+  max-width: 3rem;
+  margin-right: 0;
+}
+
+
+.frame-2-mobilebttn:hover {
+  border-radius: 10px;
+  border: 2px solid #caf08eb8;
+}
+
+.frame-2-bttn {
+  display: none;
+}
+
+
+.frame-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0px;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 30px;
+}
+
+.frame-3>h1 {
+  font-family: "Sora";
+  color: #000;
+  font-family: "Sora";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.frame-3-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 9.3rem;
+  max-width: 90%;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.frame-3-1>button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  height: 7.4rem;
+  background: linear-gradient(139deg, #E142C6 0%, #AB1892 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  transition: 300ms;
+  transform: translateY(0);
+  cursor: pointer;
+  padding: 0;
+}
+
+
+.frame-3-1>button:hover {
+  transition: 300ms;
+  height: 8rem;
+  transform: translateY(0px);
+}
+
+
+.frame-3-1>button>svg {
+  max-width: 2.5rem;
+}
+
+.frame-3-1>button>p {
+  font-size: 10px;
+}
+
+
+.frame-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.1rem;
+}
+
+.frame-4-1 {
+  max-width: 80%;
+  text-align: center;
+  border: 2px solid #e3e3e3a6;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.363);
+}
+
+.frame-4 .frame-4-1>h2 {
+  font-family: "Sora";
+  font-size: 1rem;
+}
+
+
+.frame-4 .frame-4-1>h2:hover {
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.frame-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.1rem;
+}
+
+.frame-5-1>h2 {
+  font-size: 2rem;
+  font-family: "Sora";
+  text-align: center;
+}
+
+.frame-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.frame-6-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 10rem;
+  max-width: 90%;
+}
+
+.frame-6-1>button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 6.2rem;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0px;
+  transition: 300ms;
+  transform: translateY(0);
+  cursor: pointer;
+}
+
+.frame-6-1>button:hover {
+  transition: 300ms;
+  height: 6.2rem;
+  transform: translateY(-0px);
+  border: none;
+  font-weight: 300;
+}
+
+.frame-6-1>button>svg {
+  max-width: 2rem;
+}
+
+.frame-6-1>button>p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.frame-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.frame-7-1 {
+  max-width: 90%;
+  text-align: center;
+}
+
+.frame-7-1>h1 {
+  font-family: "Sora";
+  font-weight: 300;
+  line-height: normal;
+  font-size: 30px;
+}
+
+.frame-7-2 {
+  max-width: 100%;
+}
+
+
+.frame-7-2-1 {
+  max-width: 100%;
+  height: 25rem;
+  margin-top: -6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.frame-7-2-1>img {
+  transform: scale(0.38);
+  margin-bottom: -6.25rem;
+}
+
+.frame-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.frame-8-1 {
+  max-width: 90%;
+  text-align: center;
+}
+
+.frame-8-1>h2 {
+  font-family: "Sora";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.frame-8-2-1 {
+  max-width: 100%;
+  height: 25rem;
+  margin-top: -9.375rem;
+}
+
+.frame-8-2-1>img {
+  transform: scale(0.27);
+}
+
+
+.frame-9-1 {
+  max-width: 90%;
+  text-align: center;
+}
+
+.frame-9-1>h2 {
+  font-family: "Sora";
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+  z-index: 10;
+}
+
+.frame-9-2 {
+  margin-top: 5px;
+}
+
+.frame-9-2-1 {
+  max-width: 100%;
+  height: 25rem;
+  margin-top: -15.625rem;
+}
+
+.frame-9-2-1>img {
+  transform: scale(0.31)
+}
+
+.frame-10-1>img {
+  transform: scale(0.44);
+  margin-top: -6.25rem;
+}
+
+
+.frame-11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -12.5rem;
+}
+
+.frame-11-1 {
+  max-width: 90%;
+  text-align: center;
+}
+
+.frame-11-1>h2 {
+  font-family: "Sora";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
 }
