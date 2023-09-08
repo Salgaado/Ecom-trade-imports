@@ -1,30 +1,20 @@
 const menu = document.getElementById("menu");
 const flashComponent = document.getElementById("flash-component");
 
-function handleScroll() {
+window.addEventListener("scroll", () => {
+  // Obtém a altura do componente flash
+  const flashComponentHeight = flashComponent.offsetHeight;
+  // Obtém a posição atual do scroll vertical
+  const scrollY = window.scrollY;
   
-  if (window.innerWidth > 640) {
-    const flashComponentHeight = flashComponent.offsetHeight;
-    const scrollY = window.scrollY;
-
-    if (scrollY >= flashComponentHeight) {
-      menu.classList.add("fixed");
-    } else {
-      menu.classList.remove("fixed");
-    }
+  if (scrollY >= flashComponentHeight) {
+    // Quando o scroll atinge a altura do componente flash
+    menu.classList.add("fixed");
   } else {
-    
+    // Quando o scroll está acima da altura do componente flash
     menu.classList.remove("fixed");
   }
-}
-
-
-window.addEventListener("scroll", handleScroll);
-
-
-window.addEventListener("resize", handleScroll);
-
-handleScroll();
+});
 
 
 document.addEventListener("DOMContentLoaded", function() {
