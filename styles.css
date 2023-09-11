@@ -84,7 +84,6 @@ a:hover {
 
 .frame-2-bttn {
   background-color: #62AE00;
-  color: #fff;
   font-family: "Sora";
   padding: 3px 5px 3px 5px;
   border: none;
@@ -96,6 +95,9 @@ a:hover {
   margin-right: 15rem;
 }
 
+.frame-2-bttn > a{
+  color: #fff;
+}
 
 
 .frame-2-bttn:hover {

@@ -75,6 +75,10 @@ a {
 }
 
 
+.frame-2-mobilebttn > a{
+  color: #fff; 
+}
+
 .frame-2-mobilebttn:hover {
   border-radius: 10px;
   border: 2px solid #caf08eb8;
