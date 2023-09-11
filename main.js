@@ -18,7 +18,7 @@ window.addEventListener("scroll", () => {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  const navLinks = document.querySelectorAll("header a");
+  const navLinks = document.querySelectorAll("header frame-2-2");
 
   navLinks.forEach(link => {
     link.addEventListener("click", function(event) {
