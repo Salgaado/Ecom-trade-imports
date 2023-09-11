@@ -100,11 +100,15 @@ a:hover {
   text-decoration: none;
 }
 
+.frame-2-bttn > a:hover{
+  text-decoration: none;   
+}
+
+
 
 .frame-2-bttn:hover {
   border-radius: 15px;
   border: 4px solid #caf08eb8;
-  text-decoration: none;
 }
 
 .frame-3 {
