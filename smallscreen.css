@@ -77,6 +77,7 @@ a {
 
 .frame-2-mobilebttn > a{
   color: #fff; 
+  text-decoration: none;
 }
 
 .frame-2-mobilebttn:hover {
